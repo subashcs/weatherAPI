@@ -1,0 +1,7 @@
+PORT=4400
+WEATHER_API_KEY=537ede4f7808e6c8a57a1a94794eba24
+MONGO_URL = mongodb+srv://subash:Subash123@cluster0.pkptq.mongodb.net/weather_db?retryWrites=true&w=majority
+DB_NAME=weather_db
+SECRET_KEY=helloworld12312
+WEATHER_API=http://api.openweathermap.org/data/2.5/weather?q=Hongkong
+NODE_ENV=development
