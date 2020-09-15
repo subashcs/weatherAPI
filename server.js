@@ -9,14 +9,14 @@ const weatherDAO = require("./dao/weatherDAO")
 const morgan = require("morgan")
 const bodyParser = require("body-parser")
 
-require("dotenv").config("")
-
 let app_port = process.env.PORT || 4500
 const MongoClient = mongodb.MongoClient
 
 const app = express()
 if (process.env.NODE_ENV === "development") {
   app.use(morgan("dev"))
+} else {
+  app.use(morgan("tiny"))
 }
 app.use(bodyParser.json())
 

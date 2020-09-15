@@ -1,5 +1,5 @@
 {
-  "name": "weatherAPI",
+  "name": "weatherapi",
   "version": "1.0.0",
   "description": "api that fetches weather info for hongkong",
   "main": "index.js",
