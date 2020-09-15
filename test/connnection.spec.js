@@ -7,7 +7,7 @@ describe("MongoClient", () => {
       testClient = await MongoClient.connect(process.env.MONGO_URL, {
         useNewUrlParser: true,
       })
-      
+
       expect(testClient).not.toBeNull()
 
       const clientOptions = testClient.s.options
