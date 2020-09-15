@@ -1,5 +1,5 @@
 {
-  "extends": ["react-app", "prettier"],
+  "extends": ["eslint:recommended", "react-app", "prettier"],
   "rules": {
     "jsx-a11y/href-no-hash": "off",
     "jsx-a11y/anchor-is-valid": ["warn", { "aspects": ["invalidHref"] }]
